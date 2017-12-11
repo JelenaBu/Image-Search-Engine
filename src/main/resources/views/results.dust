@@ -1,0 +1,23 @@
+{?count}
+    <div class="col-md-12 tabs-area box-shadow-none">
+        <div id="tabsDemo6Content" class="tab-content tab-content-v6 col-md-12">
+            <div role="tabpanel" class="tab-pane search-v1-menu1 fade active in" id="tabs-demo7-area1" aria-labelledby="tabs-demo7-area1">
+                <h4 class=""> {count} results found for: “{query}”</h4><br><br>
+            </div>
+            <div id=resultsPanel>
+                {#results}
+                    <div class="element">
+                        <div class="image">
+                            <a href="{url}">
+                                <img src="{url}">
+                            </a>
+                        </div>
+                        <div class="comment">
+                            <p>{alt}</p>
+                        </div>
+                    </div>
+                {/results}
+            </div>
+        </div>
+    </div>
+{/count}

@@ -1,0 +1,26 @@
+{
+  "name": "Search_Engine_Client",
+  "version": "1.0.0",
+  "description": "Search Engine client",
+  "main": "browser/js/main.js",
+  "dependencies": {
+    "dustjs-linkedin": "^2.7.4"
+  },
+  "devDependencies": {
+    "dustjs-linkedin": "^2.7.4",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csssplit": "^0.4.1",
+    "grunt-dust": "^0.9.4"
+  },
+  "scripts": {
+  },
+  "repository": {
+  },
+  "author": "Jelena Budakovic",
+  "license": "",
+  "homepage": ""
+}

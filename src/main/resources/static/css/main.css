@@ -1,0 +1,116 @@
+.alert{
+    background-color: white;
+}
+
+.outerPanel{
+    padding: 0px 150px;
+}
+
+.outer {
+    height: 80vh;
+    display: table;
+    width: 100%;
+}
+
+.outerMod {
+    height: 80vh;
+    display: table;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.scoreCol{
+    max-width: 120px;
+}
+
+.paddingHeader{
+    padding: 0px 100px;
+    padding-top: 20px;
+}
+
+.label{
+    font-size: 11pt;
+}
+
+.resultTitle, .media-heading{
+    font-size: 19pt !important;
+}
+
+.resDescription{
+    font-size: 14pt !important;
+}
+
+.form-group.form-animate-text.nomnop, .nomnop{
+    padding:0px;
+    margin: 0px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.nomnop{
+    margin-top: 20px;
+}
+
+.myheader{
+    background: #95d3a9;
+    color: black;
+}
+
+
+div#resultsPanel {
+    float: left;
+    color: black;
+}
+
+div.element {
+    background: lightgrey;
+    margin: 5px;
+    border: 1pt solid gray;
+    border-radius: 5px;
+    float: left;
+}
+
+div.image {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+div.element > .image{
+    height:300px;
+}
+
+div.element > div > a > img {
+    height:100%;
+    border-radius: 5px;
+}
+
+div.element > .comment {
+    width:300px;
+    margin: 5px;
+}
+
+div.element > .comment > p {
+    white-space: initial;
+}
+
+
+
+
+
+
